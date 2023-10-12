@@ -7,7 +7,7 @@ import { useTitle } from '../hooks/useTitle'
  export const Movielist = ({apiPath,title}) => {
   // const[movies,setmovies]=useState()
 const {data : movies}=useFetch(apiPath)
-const pagetitle=useTitle(title)
+useTitle(title)
 
    
   return (

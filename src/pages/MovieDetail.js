@@ -19,9 +19,8 @@ const response=await fetch(`https://api.themoviedb.org/3/movie/${params.id}?api_
     }
     fetchMovie()
   },[params.id])
-
+ //eslint-disable-next-line
  const pagetitle=useTitle(movie.title)
-  // console.log(params);
   return (
     <main>
    <section className='flex justify-around flex-wrap py-5 '>
