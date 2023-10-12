@@ -18,7 +18,7 @@ const response=await fetch(`https://api.themoviedb.org/3/movie/${params.id}?api_
       console.log(json);
     }
     fetchMovie()
-  },[])
+  },[params.id])
 
  const pagetitle=useTitle(movie.title)
   // console.log(params);
