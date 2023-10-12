@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
 import { Card } from '../components'
 import { useFetch } from '../hooks/useFetch'
 import { useTitle } from '../hooks/useTitle'

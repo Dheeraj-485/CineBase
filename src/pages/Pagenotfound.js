@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Oops from "../assets/404Image.jpg"
 import { NavLink } from 'react-router-dom'
 import {Button} from '../components'
